@@ -1,0 +1,108 @@
+body {
+  background-image: url(https://i.pinimg.com/736x/28/93/a1/2893a1948070ac50b5f95d3cc6fc0a89.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.banner-superpuesto {
+  position: relative;
+  width: 100%;
+}
+
+.img-base {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto-encima {
+  position: absolute;
+  top: 200;
+  left: 150;
+  font-size: 100px;
+}
+.texto1 {
+  font-size: 65px;
+}
+.texto2 {
+  font-size: 35px;
+}
+
+.container1 {
+  background: #ffffffb4;
+}
+.container2 {
+  background: #ffffff;
+}
+.mi-modal2 {
+    background-color: #aa0b0b; 
+  color: #ffffff;          
+  padding: 20px;
+  background-color: rgb(173, 17, 17); 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.mi-modal2:hover {
+    background-color: red;
+}
+.textmodal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.carouselGrande img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+}
+
+
+.carouselCuadrado img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+
+.carouselVertical img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: contain;
+}
+.nav-link:hover {
+    color: red !important;
+}
+.contenedor-tabla {
+  width: 100%;
+  max-width: 600px; /* Ancho máximo de toda la tabla */
+  margin: 0 auto;   /* Centra el div en la pantalla */
+}
+
+.tabla-gifs {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-gifs td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  text-align: center;
+  width: 50%; /* Hace que las dos columnas de abajo midan exactamente lo mismo */
+}
+
+/* Tamaño para los GIFs de abajo */
+.tabla-gifs td img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Tamaño específico para el GIF grande de arriba */
+.tabla-gifs td[colspan="2"] img {
+  width: 250px;
+}
